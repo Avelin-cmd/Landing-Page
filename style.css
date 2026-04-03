@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: lightsalmon;
+    box-shadow: 0 5px 15px rgba(peru, lightpink, yellow)
+}
+.logo{
+    color: chocolate;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: darkorange;
+}
+.nav-btn{
+    background-color: deeppink;
+    color: gold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    background-color: lightseagreen;
+}
+.hero-text{
+    max-width: 500px;
+}
+.hero-text h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.hero-text p{
+    margin-bottom: 20px;
+}
+.hero-btn{
+    padding: 12px 25px;
+    background-color: mediumblue;
+    border: none;
+    color: mediumvioletred;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.hero-img img{
+    width: 315px;
+    animation: float 3s infinite ease-in-out;
+}
+@keyframes float{
+    0%{
+        transform: translateY(0); 
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.features{
+    text-align: center;
+    padding: 80px;
+}
+.feature-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+.feature-card{
+    background-color: midnightblue;
+    padding: 30px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(mediumblue, pink, darkgreen);
+    transition: 0.3s;
+}
+.feature-card:hover{
+    transform: translateY(-10px);
+}
+.pricing{
+    background-color: darkslategray;
+    padding: 80px;
+    text-align: center;
+}
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+.pricing-card{
+    background-color: yellow;
+    padding: 40px;
+    width: 215px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px mediumvioletred;
+}
+.pricing-card button{
+    margin-top:20px;
+     padding:10px 20px;
+      border:none;
+     background:red; 
+     color:white; 
+     border-radius:20px;
+     cursor:pointer;
+}
+.featured{ 
+    transform:scale(1.1); 
+    background: deeppink; 
+    color: palevioletred; 
+}  
+    .featured button{
+     background: darkcyan; 
+    color: peru; 
+}
